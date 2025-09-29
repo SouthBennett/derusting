@@ -10,14 +10,19 @@ public class ListPractice {
     
 
     // Add 3 elements to the list (OK to do one-by-one)
-
+    words.add("Marvel Comics");
+    words.add("Detective Comics");
+    words.add("Image Comics");
     // Print the element at index 1
+    System.out.println(words.get(1));
 
     // Replace the element at index 1 with a new value
     // (Do not insert a new value. The length of the list should not change)
+    words.set(1, "Dark Horse Comics");
+    System.out.println(words.get(1));
 
     // Insert a new element at index 0 (the length of the list will change)
-
+    words.add(0, "IDW Publishing");
     // Check whether the list contains a certain string
 
     // Iterate over the list using a traditional for-loop.
