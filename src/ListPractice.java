@@ -23,12 +23,18 @@ public class ListPractice {
 
     // Insert a new element at index 0 (the length of the list will change)
     words.add(0, "IDW Publishing");
+
     // Check whether the list contains a certain string
+    System.out.println(words.contains("Dark Horse Comics"));
 
     // Iterate over the list using a traditional for-loop.
-    // Print each index and value on a separate line
+    for (int i = 0; i < words.size(); i++) { 
 
+    // Print each index and value on a separate line
+      System.out.println(words.get(i));
+    }
     // Sort the list using the Collections library
+    
 
     // Iterate over the list using a for-each loop
     // Print each value on a second line
