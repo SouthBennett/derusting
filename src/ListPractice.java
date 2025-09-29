@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ListPractice {
@@ -34,11 +35,16 @@ public class ListPractice {
       System.out.println(words.get(i));
     }
     // Sort the list using the Collections library
-    
+    System.out.println("before sort: " + words);
+    Collections.sort(words);
+    System.out.println("after sort: " + words);
 
     // Iterate over the list using a for-each loop
-    // Print each value on a second line
+    for (String word : words) {
 
+    // Print each value on a second line
+      System.out.println(word);
+    }
     /*
      * Usage tip!
      * 
