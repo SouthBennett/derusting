@@ -14,6 +14,7 @@ public class ArrayPractice {
     System.out.println(words[1]);
 
     // Get the length of the array
+    System.out.println(words.length);
 
     // Iterate over the array using a traditional for loop and print out each item
 
