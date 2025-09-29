@@ -1,8 +1,13 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class ListPractice {
 
 
   public static void main(String[] args) {
     // Create an empty ArrayList of Strings and assign it to a variable of type List
+    List<String> words = new ArrayList<>();
+    
 
     // Add 3 elements to the list (OK to do one-by-one)
 
