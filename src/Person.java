@@ -17,10 +17,10 @@ public class Person {
     this.age = age;
   }
   
-
-
   // Create a toString method that gives the name and age of the person
-
+  public String toString() {
+    return "name: " + name + " age" + age; 
+  }
 
   // Implement the below public instance method "birthYear"
   // There should NOT be any print statement in this method.
