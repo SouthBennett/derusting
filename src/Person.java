@@ -40,6 +40,11 @@ public class Person {
     return yearOfBirth;
   }
 
+  // Getter Method
+  public String getName() {
+    return this.name;
+  }
+
 
   public static void main(String[] args) {
     // Create an instance of Person
@@ -56,7 +61,8 @@ public class Person {
     System.out.println(pTwo);
 
     // Get the name of the first person and store it in a local variable
-
+    System.out.println(p.getName());
+    
     // Using the birthYear method, get the birth year of the first person
     // and store it in a local variable. Input the actual current year (e.g. 2025)
     // as the argument.
