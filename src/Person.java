@@ -19,7 +19,7 @@ public class Person {
   
   // Create a toString method that gives the name and age of the person
   public String toString() {
-    return "name: " + name + " age" + age; 
+    return "name: " + name + " age: " + age; 
   }
 
   // Implement the below public instance method "birthYear"
@@ -35,15 +35,22 @@ public class Person {
    * @return The year the person was born
    */
   // (create the instance method here)
+  public int birthYear(int currentYear) {
+    int yearOfBirth = currentYear - age;
+    return yearOfBirth;
+  }
 
 
   public static void main(String[] args) {
     // Create an instance of Person
+    Person p = new Person("Xavier", 35);
 
     // Create another instance of Person with a different name and age and
     // assign it to a different variable
+    Person pTwo = new Person("Jhoanna", 36);
 
     // Print the first person
+    System.out.println(p);
 
     // Print the second person
 
