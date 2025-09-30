@@ -43,7 +43,9 @@ public class MapPractice {
     }
 
     // Iterate over the entries in the map, printing each key and value
-    
+    for (Map.Entry<String, Integer> entry : map.entrySet()) {
+      System.out.println(entry.getKey() + " --> " + entry.getValue());
+    }
 
     /*
      * Usage tip!
