@@ -53,6 +53,7 @@ public class Person {
     System.out.println(p);
 
     // Print the second person
+    System.out.println(pTwo);
 
     // Get the name of the first person and store it in a local variable
 
