@@ -5,11 +5,18 @@
 
 public class Person {
   // Declare a public String instance variable for the name of the person
-  // Declare a private int instance variable for the age of the person
+  public String name; // instance variable (can be accessed outside class )
 
+  // Declare a private int instance variable for the age of the person
+  private int age;// can only be accessed within the class (private)
 
   // Create a constructor that takes the name and age of the person
+  public Person(String name, int age) {
   // and assigns it to the instance variables
+    this.name = name;
+    this.age = age;
+  }
+  
 
 
   // Create a toString method that gives the name and age of the person
