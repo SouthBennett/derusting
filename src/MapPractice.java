@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class MapPractice {
   public static void main(String[] args) {
@@ -29,13 +30,20 @@ public class MapPractice {
     System.out.println(map.containsKey("Xavier"));
 
     // Check whether the Map contains a given value
-    
+    System.out.println(map.containsValue(23));
 
     // Iterate over the keys of the Map, printing each key
+    for (String key : map.keySet()) {
+      System.out.println(key);
+    }
 
     // Iterate over the values of the map, printing each value
+    for (Integer val : map.values()) {
+      System.out.println(val);
+    }
 
     // Iterate over the entries in the map, printing each key and value
+    
 
     /*
      * Usage tip!
