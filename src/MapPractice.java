@@ -18,12 +18,18 @@ public class MapPractice {
     System.out.println("The value associated with key: 'Xavier' is " + value);
 
     // Find the size (number of key/value pairs) of the Map
+    System.out.println("The size of the map is: " + map.size());
 
     // Replace the value associated with a given key (the size of the Map shoukld not change)
+     map.replace("Thor", 23);
+     System.out.println(map.get("Thor"));
+     System.out.println(map.size());
 
     // Check whether the Map contains a given key
+    System.out.println(map.containsKey("Xavier"));
 
     // Check whether the Map contains a given value
+    
 
     // Iterate over the keys of the Map, printing each key
 
