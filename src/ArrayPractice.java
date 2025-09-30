@@ -17,8 +17,13 @@ public class ArrayPractice {
     System.out.println(words.length);
 
     // Iterate over the array using a traditional for loop and print out each item
-
+    for (int i = 0; i < words.length; i++) {
+      System.out.println(words[i]);
+    }
     // Iterate over the array using a for-each loop and print out each item
+    for (String word : words) {
+      System.out.println(word);
+    }
 
     /*
      * Reminder!
