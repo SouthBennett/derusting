@@ -1,14 +1,24 @@
 public class StringPractice {
   public static void main(String[] args) {
     // Create a string with at least 5 characters and assign it to a variable
-
+    String firstName = "Xavier";
     // Find the length of the string
+    int nameLength = firstName.length();
+    System.out.println("Length of name: " + nameLength);
 
     // Concatenate (add) two strings together and reassign the result
+    String lastName = "Lewis";
+    
+    String fullName = firstName + " " + lastName;
+
+    System.out.println(fullName);
 
     // Find the value of the character at index 3
+    char c = fullName.charAt(3);
+    System.out.println("The value of the character at index 3 is: " + c);
 
     // Check whether the string contains a given substring (i.e. does the string have "abc" in it?)
+    System.out.println(fullName.contains("abc"));
 
     // Iterate over the characters of the string, printing each one on a separate line
 
